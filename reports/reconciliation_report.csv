@@ -1,0 +1,4 @@
+dataset,input_records,valid_records,rejected_records,loaded_records,input_reconciliation,load_reconciliation,status
+customers,2,1,1,1,True,True,PASS
+orders,2,1,1,1,True,True,PASS
+TOTAL,4,2,2,2,True,True,PASS

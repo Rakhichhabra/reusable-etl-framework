@@ -1,0 +1,7 @@
+﻿order_id,customer_id,order_date,amount,status,source_file,source_row_number,rejection_reason
+O000005,C51637,2025-06-30,671.41,Pending,orders.csv,41517,Duplicate order_id
+O000003,C59404,2026-09-06,,Pending,orders.csv,131636,Invalid or missing amount
+O000005,C51637,2025-06-30,671.41,Pending,orders.csv,181251,Duplicate order_id
+O000002,C999999,2026-01-14,6749.3,Pending,orders.csv,193895,Invalid customer reference
+O000001,C05057,2025-10-20,-500.0,Shipped,orders.csv,204158,Amount must be greater than zero
+O000004,C67385,2026-03-19,5808.54,Unknown,orders.csv,243733,Invalid order status

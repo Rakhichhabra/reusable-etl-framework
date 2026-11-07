@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# IDE settings
+.vscode/
+
+# Runtime logs
+logs/*.log
+
+# Local SQLite database
+data/processed/*.db
+
+# Temporary files
+*.tmp
+*.bak

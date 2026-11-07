@@ -1,0 +1,5 @@
+﻿customer_id,customer_name,email,city,registration_date,source_file,source_row_number,rejection_reason
+C00001,Customer_1,customer1@example.com,Delhi,2024-02-21,customers.csv,2,Duplicate customer_id
+C00003,,customer3@example.com,Mumbai,2024-10-12,customers.csv,4,Missing customer_name
+C00004,Customer_4,invalid-email,Delhi,2024-06-27,customers.csv,5,Invalid email format
+C00001,Customer_1,customer1@example.com,Delhi,2024-02-21,customers.csv,100002,Duplicate customer_id
