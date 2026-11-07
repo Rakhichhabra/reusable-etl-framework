@@ -1,29 +1,29 @@
 {
-    "run_id": "a640ea05-29ef-4144-a409-7e554f2cb623",
+    "run_id": "4edf9eac-027a-4d64-a344-e035178b56ff",
     "status": "SUCCESS",
-    "started_at": "2026-11-07T19:15:56.617576+00:00",
-    "ended_at": "2026-11-07T19:15:56.674347+00:00",
-    "duration_seconds": 0.0568,
+    "started_at": "2026-11-07T20:00:46.154622+00:00",
+    "ended_at": "2026-11-07T20:01:01.620702+00:00",
+    "duration_seconds": 15.4661,
     "failure_reason": null,
     "datasets": {
         "customers": {
-            "input_records": 2,
-            "valid_records": 1,
-            "rejected_records": 1,
-            "loaded_records": 1
+            "input_records": 100001,
+            "valid_records": 99997,
+            "rejected_records": 4,
+            "loaded_records": 99997
         },
         "orders": {
-            "input_records": 2,
-            "valid_records": 1,
-            "rejected_records": 1,
-            "loaded_records": 1
+            "input_records": 250002,
+            "valid_records": 249996,
+            "rejected_records": 6,
+            "loaded_records": 249996
         }
     },
     "totals": {
-        "input_records": 4,
-        "valid_records": 2,
-        "rejected_records": 2,
-        "loaded_records": 2
+        "input_records": 350003,
+        "valid_records": 349993,
+        "rejected_records": 10,
+        "loaded_records": 349993
     },
     "reconciliation": {
         "input_equals_valid_plus_rejected": true,
